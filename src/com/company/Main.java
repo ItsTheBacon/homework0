@@ -27,7 +27,7 @@ public class Main {
         skeleton2.setGunsType("Стрелы");
         skeleton2.setArrows(10);
         System.out.println(skeleton.printInfo());
-        System.out.println("------------------------------------------------------");
+        System.out.println("-----------------------------------------------------");
         System.out.println(skeleton2.printInfo());
     }
 
