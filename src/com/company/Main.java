@@ -19,6 +19,7 @@ public class Main {
         skeleton.setGunsname("ЛУК");
         skeleton.setGunsType("Стрелы");
         skeleton.setArrows(12);
+        System.out.println("-----------------------------------------------------");
         Skeleton skeleton2 = new Skeleton();
         skeleton2.setHealth(330);
         skeleton2.setDamage(63);
@@ -26,6 +27,7 @@ public class Main {
         skeleton2.setGunsType("Стрелы");
         skeleton2.setArrows(10);
         System.out.println(skeleton.printInfo());
+        System.out.println("------------------------------------------------------");
         System.out.println(skeleton2.printInfo());
     }
 

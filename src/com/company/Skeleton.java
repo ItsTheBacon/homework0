@@ -36,6 +36,6 @@ public class Skeleton extends Boss {
 
     @Override
     public String printInfo() {
-        return super.printInfo() + " Стрелы "+ getArrows();
+        return super.printInfo() + "  Колво стрел:" + getArrows();
     }
 }
